@@ -1,0 +1,304 @@
+/*Barra de Navegação*/
+
+.nav a { /*ok*/
+  font-family: 'Poppins';
+  color: white;
+  text-decoration: none;
+  font-size: 19px;
+  position: relative;
+  padding: 30px 60px 0px 70px;
+  text-align: right;
+  display: flex;
+  font-weight: 500;
+} 
+
+.nav { /*ok*/
+  display: flex;
+  gap: 80px;
+}
+
+.header { /*ok*/
+  display: flex;
+  justify-content: space-between;
+  padding: 0.1%;
+  background-color: #00ADB5; 
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+
+} 
+
+/*Logo*/
+.logo img { 
+  width: 100%;
+  object-fit: contain;
+  height: 100%;
+  align-items: flex-start;
+} 
+
+.container { /*ok*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Poppins';
+}
+
+
+/*Registre-se*/ 
+.register { /*ok*/
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-top: 14px;
+  padding-right: 8px;
+} 
+
+.register button { /*ok*/
+  font-family: 'Poppins';
+  font-weight: 650;
+  background-color: #D9D9D9;
+  border: none;
+  padding: 10px 25px 10px 25px;
+  font-size: 18px;
+  color: #0A7075;
+  cursor: pointer;
+  border-radius: 4px;
+  display: flex;                
+  justify-content: center;     
+  align-items: center;          
+  text-align: center;           
+} 
+
+.register a { /*ok*/
+  color: #FFFFFF;
+  font-size: 10px;
+  text-decoration: none;
+} 
+
+/*--------------------------------------------------*/ 
+
+/*Boas vindas*/ 
+.mainContent { /*ok*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px;
+  width: 100%;
+  box-sizing: border-box;
+  font-weight: 10;
+}
+
+.textContent { /*ok*/
+  max-width: 50%;
+}
+
+.textContent h1 { /*ok*/
+  font-size: 36px;
+  font-weight: bold;
+  color: #FFFFFF; 
+
+}
+
+.textContent h1 span {/*ok*/
+  color: #FFFFFF; 
+}
+
+.textContent p {/*ok*/
+  font-family: 'Poppins';
+  font-size: 18px;
+  margin-top: 20px;
+  color: #FFFFFF; 
+}
+
+.highlight {
+  color: #00ADB5; /*Design e Desenvolvimento */
+}
+
+.textContent button { /*ok*/
+  font-family: 'Poppins';
+  background-color: #0A7075;
+  border: none;
+  padding: 12px 25px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.imageContent {
+  max-width: 45%;
+}
+
+.imageContent img {
+  width: 100%; 
+  height: auto;
+}
+
+/*--------------------------------------------------*/ 
+/*Onda de fundo*/ 
+
+.waveBackground {
+  background-image: url("/imagens/onda.png"); /* Substitua pelo caminho correto */
+  background-size: 100% auto; /* Ajusta a largura para preencher a tela */
+  background-repeat: no-repeat; /* Não repete a imagem */
+  background-position: top center; /* Centraliza a onda horizontalmente */
+  background-color: #333333; /* Cor de fundo caso a imagem falhe */
+}
+/*--------------------------------------------------*/ 
+/* Como Funciona */
+.howItWorks {
+  padding: 50px 0;
+  color: white;
+  text-align: center;
+}
+
+.howItWorksTitle {
+  font-size: 32px;
+  font-weight: bold;
+  color: #00ADB5; /* Cor para o título */
+  margin-bottom: 20px;
+}
+
+.howItWorksContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Divide em 3 colunas iguais */
+  gap: 40px; /* Espaçamento entre os itens */
+  justify-items: center; /* Centraliza os itens horizontalmente */
+  align-items: center; /* Alinha os itens verticalmente */
+  padding: 0 50px; /* Adiciona um espaçamento nas laterais */
+}
+
+.howItWorksItem h3 {
+  font-size: 20px;
+  color: #00ADB5; /* Cor dos títulos dos itens */
+  margin-bottom: 15px;
+}
+
+.howItWorksItem p {
+  font-size: 15px; 
+  color: white; 
+  line-height: 1.6; 
+  max-width: 300px; 
+  margin: 0 auto; 
+}
+/*--------------------------------------------------*/
+/* Encontre Talentos */
+.encontreTalentos {
+  height: 100%;
+  width: 100%; /* Garante que a largura ocupa toda a tela */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.encontreTalentosTitulo {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.encontreTalentosGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas, cada uma com tamanho igual */
+  gap: 60px 100px; /* Diminui a distância vertical para 40px e mantém a horizontal em 100px */
+  justify-items: center; /* Centraliza os itens dentro de cada célula */
+}
+
+.talentoItem {
+  text-align: center;
+}
+
+.talentoItem p {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+/*--------------------------------------------------*/
+/* Feedbacks */
+.feedbackSection {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.feedbackTitle {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.feedbackContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Alinha o conteúdo centralizado */
+  gap: 1rem;
+  color: #FFFF;
+}
+
+.feedbackButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #00ADB5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0; /* Remove padding extra */
+}
+
+
+.feedbackItem p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem; /* Ajustado para consistência */
+  line-height: 1.8; /* Melhor espaçamento entre linhas */
+}
+
+.feedbackItem strong {
+  font-size: 1rem;
+  color: #00ADB5;
+}
+/*--------------------------------------------------*/
+/* Rodapé */
+/* Rodapé */
+.footer {
+  width: 100%;
+  background-color: #0A7075; /* Cor de fundo do rodapé */
+  color: white;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Poppins';
+}
+
+.footerLogo img {
+  width: 120px;
+  object-fit: contain;
+}
+
+.footerLinks {
+  display: flex;
+  gap: 40px; /* Espaço entre os links */
+}
+
+.footerLinks a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.footerLinks a:hover {
+  color: #00ADB5; /* Efeito hover nos links */
+}
+
+.footerCopy {
+  font-size: 12px;
+  text-align: right;
+  color: #D9D9D9;
+}
